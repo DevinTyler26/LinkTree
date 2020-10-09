@@ -1,8 +1,8 @@
 {
+  "homepage": "https://DevinTyler26.github.io/LinkTree",
   "name": "linktree",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DevinTyler26.github.io",
   "dependencies": {
     "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
