@@ -80,11 +80,11 @@ const ProjectsPage = () => {
       </MDBCol>
       <MDBCol md="6" className="md-0 mb-4">
         <MDBCard className="card-image" style={{
-                backgroundImage: `url(${test})`,
-                backgroundSize: '600px',
-                backgroundRepeat: 'no-repeat',
+                backgroundImage     : `url(${test})`,
+                backgroundSize      : '600px',
+                backgroundRepeat    : 'no-repeat',
                 backgroundAttachment: 'absolute',
-                backgroundPosition: 'center center',
+                backgroundPosition  : 'center center',
               }}>
           <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
             <div>
@@ -93,7 +93,7 @@ const ProjectsPage = () => {
                 <strong> Me</strong>
               </h6>
               <h3 className="py-3 font-weight-bold">
-                <strong>About Devin Cunningham</strong>
+                <strong>About Devin</strong>
               </h3>
               <p className="pb-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
