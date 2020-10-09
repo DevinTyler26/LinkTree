@@ -101,9 +101,6 @@ const ProjectsPage = () => {
                 nam sit officia accusamus minus error nisi architecto
                 nulla ipsum dignissimos. Odit sed qui, dolorum!
               </p>
-              <MDBBtn gradient="aqua" rounded>
-                <MDBIcon far icon="clone" className="left" /> LinkedIn
-              </MDBBtn>
             </div>
           </div>
         </MDBCard>
