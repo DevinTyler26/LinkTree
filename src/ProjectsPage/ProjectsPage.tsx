@@ -20,10 +20,10 @@ const ProjectsPage = () => {
         <MDBCard className="card-image" style={{
                 backgroundImage:
                   `url(${tesla})`,
-                  backgroundSize: '1200px',
+                  backgroundSize: '1290px',
                   backgroundRepeat: 'no-repeat',
                   backgroundAttachment: 'absolute',
-                  backgroundPosition: 'center top',
+                  backgroundPosition: 'center center',
                   // filter: 'grayscale(100%)',
               }}>
           <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
@@ -38,10 +38,10 @@ const ProjectsPage = () => {
               <p className="pb-3">
                 Multi-service web-app that Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem molestias recusandae harum sunt impedit dolor est. Officia dicta ea eaque ab neque libero aliquid! Nihil illo dignissimos eveniet voluptate.
               </p>
-              <MDBBtn gradient="purple" rounded size="lg">
+              <MDBBtn gradient="purple" rounded href="https://github.com/DevinTyler26/myTesla" target="_blank">
                 <MDBIcon far icon="clone" className="left" /> view source code
               </MDBBtn>
-              <MDBBtn gradient="purple" rounded size="lg">
+              <MDBBtn gradient="purple" rounded href="https://mytesla.devincunningham.com" target="_blank">
                 <MDBIcon far icon="clone" className="right" /> view project
               </MDBBtn>
             </div>
@@ -68,10 +68,10 @@ const ProjectsPage = () => {
                 nam sit officia accusamus minus error nisi architecto
                 nulla ipsum dignissimos. Odit sed qui, dolorum!
               </p>
-              <MDBBtn gradient="blue" rounded size="lg">
+              <MDBBtn gradient="blue" rounded>
                 <MDBIcon far icon="clone" className="left" /> View Resume
               </MDBBtn>
-              <MDBBtn gradient="blue" rounded size="lg">
+              <MDBBtn gradient="blue" rounded href="https://www.linkedin.com/in/devincunningham/" target="_blank">
                 <MDBIcon far icon="clone" className="left" /> View LinkedIn
               </MDBBtn>
             </div>
@@ -83,8 +83,8 @@ const ProjectsPage = () => {
                 backgroundImage: `url(${test})`,
                 backgroundSize: '600px',
                 backgroundRepeat: 'no-repeat',
-                backgroundAttachment: 'relative',
-                backgroundPosition: 'center top',
+                backgroundAttachment: 'absolute',
+                backgroundPosition: 'center center',
               }}>
           <div className="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
             <div>
@@ -101,7 +101,7 @@ const ProjectsPage = () => {
                 nam sit officia accusamus minus error nisi architecto
                 nulla ipsum dignissimos. Odit sed qui, dolorum!
               </p>
-              <MDBBtn gradient="aqua" rounded size="lg">
+              <MDBBtn gradient="aqua" rounded>
                 <MDBIcon far icon="clone" className="left" /> LinkedIn
               </MDBBtn>
             </div>
