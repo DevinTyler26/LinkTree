@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/LinkTree/static/css/main.6a8bc2b1.chunk.css",
+    "main.js": "/LinkTree/static/js/main.b4c0901f.chunk.js",
+    "main.js.map": "/LinkTree/static/js/main.b4c0901f.chunk.js.map",
+    "runtime-main.js": "/LinkTree/static/js/runtime-main.67dd3e53.js",
+    "runtime-main.js.map": "/LinkTree/static/js/runtime-main.67dd3e53.js.map",
+    "static/css/2.1d82a86c.chunk.css": "/LinkTree/static/css/2.1d82a86c.chunk.css",
+    "static/js/2.59f913de.chunk.js": "/LinkTree/static/js/2.59f913de.chunk.js",
+    "static/js/2.59f913de.chunk.js.map": "/LinkTree/static/js/2.59f913de.chunk.js.map",
+    "index.html": "/LinkTree/index.html",
+    "precache-manifest.e57955cd6a1a0b8684292de038c6cdd6.js": "/LinkTree/precache-manifest.e57955cd6a1a0b8684292de038c6cdd6.js",
+    "service-worker.js": "/LinkTree/service-worker.js",
+    "static/css/2.1d82a86c.chunk.css.map": "/LinkTree/static/css/2.1d82a86c.chunk.css.map",
+    "static/css/main.6a8bc2b1.chunk.css.map": "/LinkTree/static/css/main.6a8bc2b1.chunk.css.map",
+    "static/js/2.59f913de.chunk.js.LICENSE.txt": "/LinkTree/static/js/2.59f913de.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/LinkTree/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/LinkTree/static/media/fa-solid-900.8e1ed89b.woff2",
+    "static/media/me.jpg": "/LinkTree/static/media/me.d4ae5263.jpg",
+    "static/media/model-3-hero-desktop-v2.jpg": "/LinkTree/static/media/model-3-hero-desktop-v2.5e9877d2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67dd3e53.js",
+    "static/css/2.1d82a86c.chunk.css",
+    "static/js/2.59f913de.chunk.js",
+    "static/css/main.6a8bc2b1.chunk.css",
+    "static/js/main.b4c0901f.chunk.js"
+  ]
+}
