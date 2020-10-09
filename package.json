@@ -2,7 +2,7 @@
   "name": "linktree",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://DevinTyler26.github.io/LinkTree",
+  "homepage": "https://devintyler26.github.io/LinkTree",
   "dependencies": {
     "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
