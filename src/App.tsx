@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 import PDF from './PDF/PDF';
 
 function App() {
+  console.log("This is the process.env", process.env.PUBLIC_URL)
   return (
     <Switch>
       <Route exact path="/resume">
