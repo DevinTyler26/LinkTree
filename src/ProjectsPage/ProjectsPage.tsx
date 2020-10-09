@@ -1,11 +1,11 @@
 import React from "react";
-import { MDBContainer, MDBCol, MDBCard, MDBIcon, MDBBtn } from "mdbreact";
+import { MDBContainer, MDBCol, MDBCard, MDBIcon, MDBBtn, } from "mdbreact";
 import test  from '../assets/me.jpg';
 import tesla from '../assets/model-3-hero-desktop-v2.jpg';
 
 const ProjectsPage = () => {
   return (
-  <section className="text-center my-1">
+  <section className="text-center my-1 mt-4">
     <h2 className="h1-responsive font-weight-bold my-2">
       Devin Tyler Cunningham
     </h2>
@@ -68,7 +68,7 @@ const ProjectsPage = () => {
                 nam sit officia accusamus minus error nisi architecto
                 nulla ipsum dignissimos. Odit sed qui, dolorum!
               </p>
-              <MDBBtn gradient="blue" rounded>
+              <MDBBtn gradient="blue" rounded href='/resume'>
                 <MDBIcon far icon="clone" className="left" /> View Resume
               </MDBBtn>
               <MDBBtn gradient="blue" rounded href="https://www.linkedin.com/in/devincunningham/" target="_blank">

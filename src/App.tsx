@@ -1,15 +1,24 @@
 import React from 'react';
 import './App.css';
-import { MDBContainer, MDBRow } from "mdbreact";
+import { MDBContainer, MDBRow } from 'mdbreact';
 import ProjectsPage from './ProjectsPage/ProjectsPage';
+import { Switch, Route } from 'react-router-dom';
+import PDF from './PDF/PDF';
 
 function App() {
   return (
-      <MDBContainer className="mt-5">
-      <MDBRow className="mt-4 text-center">
-        <ProjectsPage />
-      </MDBRow>
-    </MDBContainer>
+    <Switch>
+      <Route exact path="/resume">
+        <PDF />
+      </Route>
+      <Route exact path="/">
+        <MDBContainer>
+          <MDBRow className="text-center">
+            <ProjectsPage />
+          </MDBRow>
+        </MDBContainer>
+      </Route>
+    </Switch>
   );
 }
 
