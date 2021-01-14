@@ -4,7 +4,7 @@
 #########################
 
 # base image
-FROM mhart/alpine-node:14 as builder
+FROM mhart/alpine-node:15 as builder
 
 
 ADD package.json /app/
