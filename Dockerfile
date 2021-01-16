@@ -1,23 +1,13 @@
-## help from https://testdriven.io/blog/testing-angular-with-cypress-and-docker/ ##
-#########################
-### build environment ###
-#########################
+FROM node:15-alpine as builder
 
-# base image
-FROM mhart/alpine-node:15 as builder
-
-
-ADD package.json /app/
-ADD yarn.lock /app/
-# set working directory
 WORKDIR /app
+COPY . /app
+
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH /app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 RUN yarn
-
-COPY . /app
 
 # # generate build
 RUN  yarn build
