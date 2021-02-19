@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  linktree:
+    build:
+      context: ../LinkTree/
+      dockerfile: Dockerfile
+    image: 190709527778.dkr.ecr.us-west-2.amazonaws.com/linktree
+    ports:
+      - '4242:80'
+    tty: true
+    stdin_open: true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m" 
