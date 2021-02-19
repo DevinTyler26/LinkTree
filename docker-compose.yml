@@ -2,7 +2,7 @@ version: '3.4'
 services:
   linktree:
     build:
-      context: ../LinkTree/
+      context: ./
       dockerfile: Dockerfile
     image: 190709527778.dkr.ecr.us-west-2.amazonaws.com/linktree
     ports:
