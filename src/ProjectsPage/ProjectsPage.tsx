@@ -43,7 +43,7 @@ const ProjectsPage = () => {
                   <MDBBtn gradient="purple" rounded href="https://gitfront.io/r/user-3789929/7c5e825df350ac32d7eb886ba90ba7e31c458218/myTesla/" target="_blank">
                     <MDBIcon far icon="clone" className="left" /> view source code
                   </MDBBtn>
-                <MDBBtn gradient="purple" rounded href="https://mytesla-demo.devincunningham.com" target="_blank">
+                <MDBBtn gradient="purple" rounded href="https://mytesla.devincunningham.com/logout?redirect=https%3A%2F%2Fmytesla.devincunningham.com%2Flogin%3Fusername%3Ddemo%26pwd%3D%5ER%5ETmZam9WYN92gMvj8uAd!9*38X%5E9E%25TCr%40%26submit%3Dy" target="_blank">
                   <MDBIcon far icon="clone" className="right" /> view project
                 </MDBBtn>
               </div>
