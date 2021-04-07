@@ -100,7 +100,7 @@ const ProjectsPage = () => {
                   <strong>About Devin</strong>
                 </h3>
                 <p className="pb-3">
-                  Born and raised in Issaquah Washington. I love to snowboard, workout, and hike with my 44lbs French Bulldog. Fun fact, I ate Chipotle for 425 days straight and was feature on Time.com.
+                  Born and raised in Issaquah Washington. I love to snowboard, workout, and hike with my 44lbs French Bulldog. Fun fact, I ate Chipotle for 425 days straight and was feature on <a href={"https://time.com/4417999/fit-guy-eats-chipotle-every-day/"} target="_blank" rel="noopener noreferrer">Time.com</a>
                 </p>
                 {/* <MDBBtn gradient="aqua" rounded>
                   <MDBIcon far icon="clone" className="left" /> Stitch's Instagram
