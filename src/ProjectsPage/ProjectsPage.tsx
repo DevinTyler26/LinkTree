@@ -9,20 +9,21 @@ const ProjectsPage = () => {
   return (
     <section className="text-center my-1 mt-1">
       <h2 className="h1-responsive font-weight-bold my-2">Devin Tyler Cunningham</h2>
-      <p className="grey-text w-responsive mx-auto mb-3">Seattle based Software Development Engineer. Frenchie Dad. Car Enthusiast.</p>
+      <p className="grey-text w-responsive mx-auto mb-3">Seattle based Software Engineer. Frenchie Dad. Car Enthusiast.</p>
 
       <MDBContainer className="d-flex flex-wrap">
         <MDBCol md="12" className="mb-4">
           <MDBCard
             className="card-image"
             style={{
-              backgroundImage      : `url(${myTesla})`,
-              backgroundSize       : '100%',
-              backgroundRepeat     : 'no-repeat',
-              backgroundAttachment : 'absolute',
-              backgroundPosition   : 'center -10px',
-              background: "linear-gradient(to bottom,  0%,rgba(125,185,232,0) 100%)",
-              filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 )"
+              backgroundImage    : `url(${myTesla})`,
+              width              : "100%",
+              height             : "auto",
+              backgroundSize     : "cover",
+              backgroundRepeat   : "no-repeat",
+              backgroundPosition : "center 0px",
+              background         : "linear-gradient(to bottom,  0%,rgba(125,185,232,0) 100%)",
+              filter             : "progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 )"
               // filter: 'grayscale(100%)',
             }}
           >
@@ -36,7 +37,7 @@ const ProjectsPage = () => {
                   <strong>myTesla</strong>
                 </h3>
                 <p className="pb-3" style={{whiteSpace:"pre-wrap"}}>
-                  A multi-microservice application that gathers data from your Tesla and displays aggregate information like drive and charge sessions to a dashboard.
+                  A multi-container application that gathers data from your Tesla and displays aggregate information like monthly stats, drive/charge sessions, and breadcrumbs to a dashboard.
                   <br/>
                 Languages & Tools: JavaScript/TypeScript, NodeJS, MongoDB, Docker, Tesla’s API
                 </p>
@@ -100,7 +101,7 @@ const ProjectsPage = () => {
                   <strong>About Devin</strong>
                 </h3>
                 <p className="pb-3">
-                  Born and raised in Issaquah Washington. I love to snowboard, workout, and hike with my 44lbs French Bulldog. Fun fact, I ate Chipotle for 425 days straight and was feature on <a href={"https://time.com/4417999/fit-guy-eats-chipotle-every-day/"} target="_blank" rel="noopener noreferrer">Time.com</a>
+                  Born and raised in Issaquah Washington. I love to snowboard, workout, and hike with my 44.2lbs French Bulldog named Stitch. Fun fact, I ate Chipotle for 425 days straight and was featured on <a href={"https://time.com/4417999/fit-guy-eats-chipotle-every-day/"} target="_blank" rel="noopener noreferrer">TIME.com</a>
                 </p>
                 {/* <MDBBtn gradient="aqua" rounded>
                   <MDBIcon far icon="clone" className="left" /> Stitch's Instagram
