@@ -4,7 +4,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: 190709527778.dkr.ecr.us-west-2.amazonaws.com/linktree
+    image: devintyler2626/linktree:latest
     ports:
       - '4242:80'
     tty: true
